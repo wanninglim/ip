@@ -61,9 +61,6 @@ public class Storage {
         if (!file.exists()) {
             file.createNewFile();
         }
-
-        assert directory.exists() : "Directory does not exist";
-        assert file.exists() : "File does not exist";
     }
 
     /**
